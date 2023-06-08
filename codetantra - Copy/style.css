@@ -828,6 +828,7 @@ font-family: sans-serif;
     .events-list,
     .letest-news {
         height: 331px;
+        width:94%;
     }
 
     .upcoming-event-list,

@@ -961,4 +961,16 @@ font-family: sans-serif;
     .copywrite {
         letter-spacing: normal;
     }
+    .slider{
+        height:auto;
+    }
+    .slides{
+        height:auto;
+    }
+    .slide img{
+        height:auto;
+    }
+    .navigation-auto{
+        margin-top:460px;
+    }
 }

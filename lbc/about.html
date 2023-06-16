@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0"
+    />
+  </head>
+  <body>
+    <div class="width-100 top-header">
+      <div class="container">
+        <div class="width-100">
+          <b class="news-list">NEWS :</b>
+          <marquee class="headquote"
+            >My College: Intelligence plus curiosity-that is the root of the
+            true Education.</marquee
+          >
+        </div>
+      </div>
+    </div>
+    <div class="width-100 header-menu">
+      <div class="container">
+        <div class="logo">
+          <img src="/photo/lb college.jpg " alt="" srcset="" />
+          <div class="menu-bar">
+            <i class="fa fa-bars" onclick="myfun()"></i>
+          </div>
+        </div>
+
+        <ul class="main-menu" id="min-ul">
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/staff.html">staff</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Contact Us</a></li>
+
+          <button class="login-signup">SignUp</button>
+        </ul>
+      </div>
+    </div>
+
+    <div class="width-100">
+      <div class="established">
+        <p>
+          Langta Baba College, located near Surya Mandir in Mirzaganj, Giridih,
+          Jharkhand, stands as a testament to the transformative power of
+          education. With its modern library, generous scholarship facilities,
+          and eco-friendly initiatives, the college strives to provide a
+          nurturing and empowering environment for students.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      function myfun() {
+        var x = document.getElementById("min-ul");
+        if (x.style.display == "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

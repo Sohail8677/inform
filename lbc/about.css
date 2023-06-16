@@ -186,4 +186,10 @@ font-weight: bold;
 .menu-bar i:checked{
     color:red
 }
+    .established{
+    padding: 50px;
+    margin: 0px;
+    width: 100%;
+    line-height: 23px;
+}
 }

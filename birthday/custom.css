@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url( "https://pluspng.com/img-png/heart-png-hd-transparent-background-transparent-png-background-with-hearts-2500.png");
+    background-size: cover;
+    background-color: blueviolet;
+    padding-top: 100px;
+}
+.width-100{
+    width: 100%;
+}
+
+.overlay {
+    margin: auto;
+    width: 90vw;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:darkcyan;
+    box-shadow: 0px 2px 5px 0px #00000036;
+    border-radius: 10px;
+    border:2px solid blueviolet;
+    padding: 20px;
+    
+}
+
+.title {
+    padding-top: 30px;
+    margin-top: 10px;
+    color:maroon;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: lobster;
+
+}
+
+.col {
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#btn{
+    padding:10px 20px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+#btn a{
+    text-decoration: none;
+    color: #fff;
+}
